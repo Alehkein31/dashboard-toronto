@@ -74,7 +74,7 @@ function App() {
           <img src="/yo.jpg" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover' }} alt="Alejandro" />
           <div>
             <h3 style={{ margin: 0 }}>Alejandro - Frontend Dev</h3>
-            <p style={{ margin: '2px 0', color: subText, fontSize: '14px' }}>Available for work in Toronto | Open to Remote</p>
+            <p style={{ margin: '2px 0', color: subText, fontSize: '14px' }}>Open to Reolocation | Open to Remote</p>
           </div>
           <span style={{ marginLeft: 'auto', background: '#10b981', color: 'white', padding: '5px 12px', borderRadius: '20px', fontSize: '12px', fontWeight: 'bold' }}>
             Open to Work
