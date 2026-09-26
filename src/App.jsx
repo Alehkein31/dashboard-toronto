@@ -15,7 +15,7 @@ function App() {
     { name: 'Thu', revenue: 2000, users: 400 },
     { name: 'Fri', revenue: 3000, users: 500 },
     { name: 'Sat', revenue: 5500, users: 600 },
-    { name: 'Sun', revenue: 7000, users: 8000},
+    { name: 'Sun', revenue: 7000, users: 800},
   ])
 
   // Guardar tema
@@ -71,7 +71,7 @@ function App() {
             border: `1px solid ${darkMode ? '#333' : '#e5e7eb'}`,
           }}
         >
-          <img src="/yo.jpg" style={{ width: '40px', height: '40px', borderRadius: '50', objectFit: 'cover' }} alt="Alejandro" />
+          <img src="/yo.jpg" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover' }} alt="Alejandro" />
           <div>
             <h3 style={{ margin: 0 }}>Alejandro - Frontend Dev</h3>
             <p style={{ margin: '2px 0', color: subText, fontSize: '14px' }}>Available for work in Toronto | Open to Remote</p>
@@ -107,7 +107,7 @@ function App() {
 
       
         {/* CARDS */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '15px', marginBottom: '20px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px'}}>
           <div style={{ background: cardBg, padding: '20px', borderRadius: '12px' }}>
             <p style={{ color: subText, fontSize: '13px' }}>Revenue ({range})</p>
             <motion.h2
