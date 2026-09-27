@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
+import JobTracker from './JobTracker';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -150,6 +151,7 @@ function App() {
             </LineChart>
           </ResponsiveContainer>
         </div>
+        <JobTracker />
       </div>
     )
   }
